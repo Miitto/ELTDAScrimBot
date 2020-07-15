@@ -1,0 +1,23 @@
+**helpme** - displays this page
+**time** - Set the time (Format using 24hr = HH:MM:<DAY>:<MONTH>:<YEAR> (variables in <> are optional))
+**pingcoach** - toggles between pinging the coach role or not
+**maps** - set the maps (Format = MAP1 MAP2 [space between each map, one word per map])
+**ping** - ping the author with the time left until scrim and the maps
+**pingall** - ping the academy role with the time left until scrim and the maps
+**scrimresult** - Sets the score (Format = roundsWon roundsLost)
+**exit** - Shut down the bot for maintenance
+**info** - Print the current Stats
+
+**miitto** - Add info (Format = Kills Deaths Assists)
+**marcus** - Add info
+**nathan** - Add info
+**lokii** - Add info
+**jack** - Add info
+**viddy** - Add info
+
+**trialone** - Add a game for trial one (Format = Kills Deaths Assists [One games stats])
+**trialtwo** - Add a game for trial two
+**trialthree** - Add a game for trial three
+**settrialone** - Set up the trial one (Format = Name <Clear Y/N> [Clear = Y means that all of the stats will reset as well as a name change, leave blank also means N])
+**settrialtwo** - Set up the trial two
+**settrialthree** - Set up the trial three
