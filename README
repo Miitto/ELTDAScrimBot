@@ -9,6 +9,6 @@ You will also then need to create a file called .env with the format, root acces
 SCRIM_BOT = '<bot token>'
 ROSTER_STATS_PATH = '<path from root to a json file which will store the roster stats>'
 TRIAL_STATS_PATH = '<path from root to a json file which will store the trials stats>'
-CAMMANDS_PATH = 'path from root to a txt file which will store names and descriptions of the commands (needs to be manually updated, although commands.txt is a the base for this project)>'
+CAMMANDS_PATH = 'path from root to a txt file which will store names and descriptions of the commands (needs to be manually updated, although commands.txt is accurate for this project at current)>'
 
 then replace the load_dotenv('/home/pi/bots/.env') {Line 16} to instead have your path to that .env file from root.
