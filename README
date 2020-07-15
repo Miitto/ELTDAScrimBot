@@ -3,3 +3,12 @@ To use this file (On Linux at least) first you need to install discord.py and py
 Reccommended to use:
 sudo pip3 install python-dotenv
 sudo pip3 install discord.py
+
+
+You will also then need to create a file called .env with the format, root access usually starts from /home/<user>/<from here its the standard folder path that you made>
+SCRIM_BOT = '<bot token>'
+ROSTER_STATS_PATH = '<path from root to a json file which will store the roster stats>'
+TRIAL_STATS_PATH = '<path from root to a json file which will store the trials stats>'
+CAMMANDS_PATH = 'path from root to a txt file which will store names and descriptions of the commands (needs to be manually updated, although commands.txt is a the base for this project)>'
+
+then replace the load_dotenv('/home/pi/bots/.env') {Line 16} to instead have your path to that .env file from root.
