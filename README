@@ -1,4 +1,4 @@
-To use this file (On Linux at least) first you need to install discord.py and python-dotenv
+To use this file (On Linux at least) first you need to install discord.py and python-dotenv   I made this for personal use so it may need significant changes to be of use to others
 
 Reccommended to use:
 sudo pip3 install python-dotenv
